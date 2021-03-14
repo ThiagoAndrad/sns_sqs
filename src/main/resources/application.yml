@@ -9,3 +9,9 @@ cloud:
       auto: false
 logging:
   level.com.amazonaws.util.EC2MetadataUtils: error
+
+message:
+  topic:
+    example-topic: example-topic
+  queue:
+    example-queue: example-queue
